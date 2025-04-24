@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://host.docker.internal:5432/repmanager
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+storage:
+  strategy: object-storage # değiştirmek istersek file-system
+  minio:
+    endpoint: http://host.docker.internal:9000
+    accessKey: minioadmin
+    secretKey: minioadmin
+    bucket: repmanager
