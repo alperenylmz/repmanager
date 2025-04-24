@@ -86,6 +86,7 @@ To use:
   <id>repsy</id>
   <url>https://repo.repsy.io/mvn/alperenylmz/repmanager/</url>
 </repository>
+```
 
 ## 🐳 Docker Image
 
@@ -97,7 +98,7 @@ To pull:
 
 ```bash
 docker pull vigoureux/repmanager
-
+```
 
 ## 📝 Author
 
