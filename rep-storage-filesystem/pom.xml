@@ -14,4 +14,11 @@
     <packaging>jar</packaging>
 
     <name>File System Storage Module</name>
+
+    <distributionManagement>
+        <repository>
+            <id>repsy</id>
+            <url>https://repo.repsy.io/mvn/alperenylmz/repmanager/</url>
+        </repository>
+    </distributionManagement>
 </project>

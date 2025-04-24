@@ -14,4 +14,12 @@
     <packaging>jar</packaging>
 
     <name>Object Storage Module</name>
+
+    <distributionManagement>
+        <repository>
+            <id>repsy</id>
+            <url>https://repo.repsy.io/mvn/alperenylmz/repmanager/</url>
+        </repository>
+    </distributionManagement>
+
 </project>

@@ -69,6 +69,36 @@ storage:
     bucket: repmanager
 ```
 
+
+## 📦 Maven Repository
+
+The following libraries have been published to a public Maven repository on Repsy:
+
+- `rep-storage-filesystem`
+- `rep-storage-object`
+
+Repository: [https://repo.repsy.io/mvn/alperenylmz/repmanager/](https://repo.repsy.io/mvn/alperenylmz/repmanager/)
+
+To use:
+
+```xml
+<repository>
+  <id>repsy</id>
+  <url>https://repo.repsy.io/mvn/alperenylmz/repmanager/</url>
+</repository>
+
+## 🐳 Docker Image
+
+The Docker image is published publicly at:
+
+👉 [https://hub.docker.com/r/vigoureux/repmanager](https://hub.docker.com/r/vigoureux/repmanager)
+
+To pull:
+
+```bash
+docker pull vigoureux/repmanager
+
+
 ## 📝 Author
 
 Created by **Alperen Yılmaz**  
